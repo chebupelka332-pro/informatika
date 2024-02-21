@@ -68,3 +68,24 @@ for a1, a2 in combinations(OX, 2):
         m.append(a2 - a1)
 print(min(m))
 """
+
+
+"""from itertools import * # восмибитовые цепочки
+
+
+d = [''.join(i) for i in product('01', repeat=8)]
+
+a = set()
+
+
+def f(x):
+    P = x in {i for i in d if i[:2] == '11'}
+    Q = x in {i for i in d if i[-1] == '0'}
+    A = x in a
+    return (not A) <= ((not P) and (not Q))
+
+
+for x in d:
+    if f(x) == 0:
+        a.add(x)
+print(len(a))"""
