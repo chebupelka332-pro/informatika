@@ -16,7 +16,7 @@ for a in range(1, 1000):
         print(a)"""
 
 
-"""a = set()  # множества и отрезки мин
+"""a = set()  # множества мин
 
 
 def f(x):
@@ -33,7 +33,7 @@ print(a)"""
 
 
 
-"""a = set(range(1000))  # множества и отрезки макс
+"""a = set(range(1000))  # множества макс
 
 
 def f(x):
@@ -60,7 +60,7 @@ def f(x):
     return (B <= A) and ((not C) or A)
 
 
-OX = [i / 4 for i in range(16 * 4, 52 * 4 + 1)]
+OX = [i / 4 for i in range(16 * 4, 53 * 4 + 1)]
 m = []
 
 for a1, a2 in combinations(OX, 2):
